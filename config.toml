@@ -1,0 +1,26 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "React-Offline-Sync"
+theme = "color-your-world"
+
+[menu]
+    [[menu.main]]
+        identifier = "install"
+        name = "Installation"
+        url  = "/"
+        weight = 1
+        
+    [[menu.main]]
+        identifier = "guide"
+        name = "Contribution Guidlines"
+        url  = "/contribution-guidlines"
+        weight = 111
+
+    [[menu.main]]
+        identifier = "code"
+        name = "Source Code"
+        url  = "/en/posts/trq"
+        weight = 113
+
+
+    
