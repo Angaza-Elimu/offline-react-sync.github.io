@@ -19,4 +19,4 @@ git config --global user.name $CIRCLE_USERNAME
 # force push to GitHub Pages
 git add --force .
 git commit --message="Deploy build $CIRCLE_BUILD_NUM [ci skip]" || true
-git push --force origin gh-pages
+git push --force origin main
